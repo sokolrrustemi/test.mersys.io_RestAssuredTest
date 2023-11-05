@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="API Test Suite">
+    <test name="API Tests">
+        <classes>
+            <class name="testMersysIo._1_Setup._1_Parameters._1_Country.Country"/>
+            <class name="testMersysIo._1_Setup._1_Parameters._2_BankAccounts.BankAccounts"/>
+            <class name="testMersysIo._1_Setup._1_Parameters._4_DocumentTypes.DocumentTypes"/>
+            <class name="testMersysIo._1_Setup._1_Parameters._3_GradeLevels.GradeLevels"/>
+            <class name="testMersysIo._1_Setup._1_Parameters._4_DocumentTypes.DocumentTypes"/>
+            <class name="testMersysIo._1_Setup._1_Parameters._5_Fields.Fields"/>
+            <class name="testMersysIo._1_Setup._1_Parameters._6_Discounts.Discounts"/>
+            <class name="testMersysIo._1_Setup._1_Parameters._7_Nationalities.Nationalities"/>
+            <class name="testMersysIo._1_Setup._2_SchoolSetup._1_Departments.Departments"/>
+            <class name="testMersysIo._1_Setup._2_SchoolSetup._2_Locations.Locations"/>
+            <class name="testMersysIo._3_HumaneResources._1_Positions.Positions"/>
+            <class name="testMersysIo._3_HumaneResources._2_Attestations.Attestations"/>
+            <class name="testMersysIo._3_HumaneResources._3_PositionCategories.PositionCategories"/>
+            <class name="testMersysIo._4_Education._1_SubjectCategories.SubjectCategories"/>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="org.testng.reporters.EmailableReporter" />
+    </listeners>
+</suite>
+
+
+
+
