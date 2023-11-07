@@ -7,8 +7,8 @@ public class Login {
 
     // * Login
     public String urlLog="/auth/login";
-    public String  username="turkeyts";
-    public String  password="TechnoStudy123";
+    public String  username="username"; // before running test please enter the correct username 
+    public String  password="password"; // before running test please enter the correct password 
     public String url=" https://test.mersys.io/school-service/api/";
     public Faker randomUreteci=new Faker();
 
